@@ -7,10 +7,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>tessera-enginecommon-lib</artifactId>
+    <artifactId>tessera-storageapi-lib</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>tessera-enginecommon-lib</name>
+    <name>tessera-storageapi-lib</name>
 
 </project>
