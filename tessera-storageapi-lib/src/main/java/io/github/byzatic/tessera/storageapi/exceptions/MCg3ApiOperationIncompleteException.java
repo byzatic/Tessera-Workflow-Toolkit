@@ -1,4 +1,4 @@
-package io.github.byzatic.storageapi.exceptions;
+package io.github.byzatic.tessera.storageapi.exceptions;
 
 public class MCg3ApiOperationIncompleteException extends Exception {
 

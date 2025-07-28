@@ -1,7 +1,7 @@
-package io.github.byzatic.storageapi.storageapi;
+package io.github.byzatic.tessera.storageapi.storageapi;
 
-import io.github.byzatic.storageapi.dto.StorageItem;
-import io.github.byzatic.storageapi.exceptions.MCg3ApiOperationIncompleteException;
+import io.github.byzatic.tessera.storageapi.dto.StorageItem;
+import io.github.byzatic.tessera.storageapi.exceptions.MCg3ApiOperationIncompleteException;
 
 import java.util.List;
 

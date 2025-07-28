@@ -32,6 +32,8 @@
   <modules>
     <module>tessera-enginecommon-lib</module>
     <module>tessera-storageapi-lib</module>
+    <module>tessera-service-lib</module>
+    <module>tessera-workflowroutine-lib</module>
   </modules>
 
   <scm>

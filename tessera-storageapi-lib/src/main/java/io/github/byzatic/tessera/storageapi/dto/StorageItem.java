@@ -1,4 +1,4 @@
-package io.github.byzatic.storageapi.dto;
+package io.github.byzatic.tessera.storageapi.dto;
 
 import io.github.byzatic.commons.ObjectsUtils;
 

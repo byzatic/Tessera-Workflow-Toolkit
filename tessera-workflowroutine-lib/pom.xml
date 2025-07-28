@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.byzatic</groupId>
+        <artifactId>tessera-workflow-toolkit</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>tessera-workflowroutine-lib</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <name>tessera-workflowroutine-lib</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.byzatic</groupId>
+            <artifactId>tessera-storageapi-lib</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.byzatic</groupId>
+            <artifactId>tessera-enginecommon-lib</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
