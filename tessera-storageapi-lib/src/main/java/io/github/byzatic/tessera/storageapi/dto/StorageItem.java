@@ -1,7 +1,5 @@
 package io.github.byzatic.tessera.storageapi.dto;
 
-import io.github.byzatic.commons.ObjectsUtils;
-
 import java.util.Objects;
 
 public class StorageItem {
@@ -22,7 +20,9 @@ public class StorageItem {
     }
 
     private StorageItem(Builder builder) {
-        ObjectsUtils.requireNonNull(builder.scope, new IllegalArgumentException("scope should be NotNull"));
+        if (builder.scope == null) {
+            throw new IllegalArgumentException("scope should be NotNull");
+        }
         scope = builder.scope;
         downstreamName = builder.downstreamName;
         storageId = builder.storageId;
@@ -166,4 +166,3 @@ public class StorageItem {
         }
     }
 }
-

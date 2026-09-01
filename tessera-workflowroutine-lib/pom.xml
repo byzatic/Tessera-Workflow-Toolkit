@@ -4,11 +4,10 @@
     <parent>
         <groupId>io.github.byzatic</groupId>
         <artifactId>tessera-workflow-toolkit</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </parent>
 
     <artifactId>tessera-workflowroutine-lib</artifactId>
-    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>tessera-workflowroutine-lib</name>
@@ -17,13 +16,13 @@
         <dependency>
             <groupId>io.github.byzatic</groupId>
             <artifactId>tessera-storageapi-lib</artifactId>
-            <version>0.0.1</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.byzatic</groupId>
             <artifactId>tessera-enginecommon-lib</artifactId>
-            <version>0.0.1</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

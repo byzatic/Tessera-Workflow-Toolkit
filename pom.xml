@@ -4,8 +4,7 @@
 
   <groupId>io.github.byzatic</groupId>
   <artifactId>tessera-workflow-toolkit</artifactId>
-  <version>0.0.1</version>
-  <!--<version>0.0.1-SNAPSHOT</version>-->
+  <version>0.0.2</version>
   <packaging>pom</packaging>
 
   <name>Tessera-Workflow-Toolkit</name>
@@ -76,7 +75,7 @@
     <!-- dependency versions list -->
     <version.java_byzatic_commons>0.0.2</version.java_byzatic_commons>
     <version.slf4j>1.7.25</version.slf4j>
-    <version.logback>1.5.13</version.logback>
+    <version.logback>1.5.34</version.logback>
     <version.junit>4.13.1</version.junit>
     <version.jetbrains_annotations>21.0.1</version.jetbrains_annotations>
   </properties>
@@ -308,12 +307,12 @@
       <plugin>
         <groupId>org.sonatype.central</groupId>
         <artifactId>central-publishing-maven-plugin</artifactId>
-        <version>0.8.0</version>
+        <version>0.11.0</version>
         <extensions>true</extensions>
         <configuration>
           <publishingServerId>central</publishingServerId>
-          <!--<autoPublish>true</autoPublish>-->
-          <!--<waitUntil>published</waitUntil>-->
+          <autoPublish>true</autoPublish>
+          <waitUntil>published</waitUntil>
         </configuration>
       </plugin>
 
